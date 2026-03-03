@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZYXCAD - 국내 기술로 만든 강력한 범용 CAD 솔루션</title>
+  <meta name="description"
+    content="ZYXCAD는 ZYX Technology가 국내 기술로 개발한 범용 CAD 소프트웨어로, AutoCAD 100% 호환에 최대 63% 비용절감이 가능합니다." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=3" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-zyx">ZYX</span><span class="logo-cad">CAD</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">소개</a></li>
+        <li><a href="#compare">비교</a></li>
+        <li><a href="#features">주요기능</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#clients">고객사</a></li>
+        <li><a href="#support">기술지원</a></li>
+      </ul>
+      <a href="#support" class="nav-cta">무료 체험 신청</a>
+      <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-shape shape1"></div>
+    <div class="hero-bg-shape shape2"></div>
+    <div class="hero-bg-shape shape3"></div>
+    <div class="hero-content">
+      <div class="hero-badge">🇰🇷 국내 기술 개발 · KOLAS 인증</div>
+      <h1 class="hero-title">
+        더 빠르고, 더 강력하고,<br />
+        <span class="gradient-text">더 합리적인 CAD</span>
+      </h1>
+      <p class="hero-sub">
+        ZYX Technology가 국내 기술로 개발한 범용 CAD 소프트웨어<br />
+        AutoCAD 완벽 호환 · 최대 <strong>63% 비용 절감</strong> · 속도 <strong>286% 향상</strong>
+      </p>
+      <div class="hero-actions">
+        <a href="#compare" class="btn btn-primary">성능 비교 보기</a>
+        <a href="#features" class="btn btn-ghost">주요 기능 살펴보기</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">286%</span>
+          <span class="stat-lbl">속도 향상</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">63%</span>
+          <span class="stat-lbl">비용 절감</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">100%</span>
+          <span class="stat-lbl">DWG 호환</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">400+</span>
+          <span class="stat-lbl">Works 기능</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="hero-img-wrapper">
+        <img src="data/extracted/page5_img3_cropped.jpeg" alt="ZYXCAD 2025 제품" loading="eager" />
+      </div>
+    </div>
+  </section>
+
+  <!-- MARKET ISSUE -->
+  <section class="market-issue" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">CAD 시장 이슈</span>
+        <h2 class="section-title">왜 지금 ZYXCAD인가?</h2>
+        <p class="section-desc">1위 CAD사의 잦은 정책 변경과 지속적인 가격 인상으로<br />89% 이상의 기업이 대안 CAD 도입을 검토하고 있습니다.</p>
+      </div>
+      <div class="market-grid">
+        <div class="market-card">
+          <div class="market-icon">📋</div>
+          <h3>2016년</h3>
+          <p>영구 라이선스 단종</p>
+        </div>
+        <div class="market-card">
+          <div class="market-icon">🌐</div>
+          <h3>2020년</h3>
+          <p>네트워크 버전 지원 중단</p>
+        </div>
+        <div class="market-card">
+          <div class="market-icon">📈</div>
+          <h3>매년</h3>
+          <p>가격 인상 및 단속 공문 배포</p>
+        </div>
+        <div class="market-card market-card-highlight">
+          <div class="market-icon">🏢</div>
+          <h3>89%↑</h3>
+          <p>기업의 타 CAD 구매·검토 의향<br /><small>(2024년 생산·제조 전문 매거진 설문)</small></p>
+        </div>
+      </div>
+      <div class="market-chart">
+        <div class="chart-title">시장 점유율 변화 추이</div>
+        <div class="chart-bars">
+          <div class="chart-year">
+            <div class="bar-group">
+              <div class="bar bar-autocad" style="--h:85">
+                <span class="bar-val">85%</span>
+              </div>
+              <div class="bar bar-alt" style="--h:15">
+                <span class="bar-val">15%</span>
+              </div>
+            </div>
+            <span class="bar-year">2019</span>
+          </div>
+          <div class="chart-year">
+            <div class="bar-group">
+              <div class="bar bar-autocad" style="--h:79">
+                <span class="bar-val">79%</span>
+              </div>
+              <div class="bar bar-alt" style="--h:21">
+                <span class="bar-val">21%</span>
+              </div>
+            </div>
+            <span class="bar-year">2021</span>
+          </div>
+          <div class="chart-year">
+            <div class="bar-group">
+              <div class="bar bar-autocad" style="--h:64">
+                <span class="bar-val">64%</span>
+              </div>
+              <div class="bar bar-alt" style="--h:36">
+                <span class="bar-val">36%</span>
+              </div>
+            </div>
+            <span class="bar-year">2024</span>
+          </div>
+        </div>
+        <div class="chart-legend">
+          <span class="legend-ac">■ AutoCAD</span>
+          <span class="legend-alt">■ 대안 CAD</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARE -->
+  <section class="compare" id="compare">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">ZYXCAD vs AutoCAD</span>
+        <h2 class="section-title">압도적인 차이를 경험하세요</h2>
+        <p class="section-desc">KOLAS 인증 시험으로 검증된 성능 비교 결과입니다.</p>
+      </div>
+      <div class="compare-grid">
+        <div class="compare-card compare-speed">
+          <div class="compare-icon">⚡</div>
+          <h3>속도 286% 향상</h3>
+          <div class="compare-bar-wrap">
+            <div class="compare-row">
+              <span class="compare-label zyxcad-label">ZYXCAD</span>
+              <div class="compare-bar-bg">
+                <div class="compare-fill zyxcad-fill" style="--w:35%">
+                  <span>15초</span>
+                </div>
+              </div>
+            </div>
+            <div class="compare-row">
+              <span class="compare-label autocad-label">AutoCAD</span>
+              <div class="compare-bar-bg">
+                <div class="compare-fill autocad-fill" style="--w:100%">
+                  <span>43초</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="compare-note">70.2MB DWG 파일 오픈 시간 (5회 평균)</p>
+        </div>
+        <div class="compare-card compare-stability">
+          <div class="compare-icon">🛡️</div>
+          <h3>안정성 800% 향상</h3>
+          <div class="compare-stability-rows">
+            <div class="stability-item stability-zyx">
+              <span class="stability-label">ZYXCAD</span>
+              <span class="stability-val">1,261,952개 정상 생성 ✅</span>
+            </div>
+            <div class="stability-item stability-auto">
+              <span class="stability-label">AutoCAD</span>
+              <span class="stability-val">157,744개에서 오류 중단 ❌</span>
+            </div>
+          </div>
+          <p class="compare-note">70.2MB DWG 객체 복사 테스트 (6회)</p>
+        </div>
+        <div class="compare-card compare-cost">
+          <div class="compare-icon">💰</div>
+          <h3>비용 최대 63% 절감</h3>
+          <div class="cost-comparison">
+            <div class="cost-item cost-zyx">
+              <span class="cost-name">ZYXCAD</span>
+              <span class="cost-init">초기 ₩1,950,000</span>
+              <span class="cost-3yr">3년 후 ₩2,610,000</span>
+              <span class="cost-badge">영구 라이선스</span>
+            </div>
+            <div class="cost-vs">VS</div>
+            <div class="cost-item cost-auto">
+              <span class="cost-name">AutoCAD</span>
+              <span class="cost-init">3년 ₩7,850,000</span>
+              <span class="cost-3yr">업그레이드 포함</span>
+              <span class="cost-badge cost-bad">구독형만 제공</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">ZYXCAD 주요 기능</span>
+        <h2 class="section-title">강력한 성능의 모든 것</h2>
+        <p class="section-desc">다중 CPU 활용, 메모리 최적화, 100% 파일 호환성까지<br />전문 CAD 작업에 필요한 모든 기능을 갖추었습니다.</p>
+      </div>
+
+      <div class="features-showcase">
+        <div class="features-list">
+          <div class="feature-item">
+            <div class="feature-num">01</div>
+            <div class="feature-text">
+              <h4>다중 CPU 지원</h4>
+              <p>여러 CPU에서 연산을 지원하여 프로그램 속도를 극적으로 향상시킵니다.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-num">02</div>
+            <div class="feature-text">
+              <h4>메모리 최적화</h4>
+              <p>고용량 도면도 빠르게 열리며 장시간 작업해도 안정적인 속도를 유지합니다.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-num">03</div>
+            <div class="feature-text">
+              <h4>100% 파일 호환</h4>
+              <p>DWG, DXF, DWF, PDF 등 주요 CAD 포맷을 완벽하게 지원합니다.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-num">04</div>
+            <div class="feature-text">
+              <h4>BIM 연동 · IFC 호환</h4>
+              <p>건축 및 설계 데이터 통합을 위한 IFC 파일 완벽 호환을 제공합니다.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-num">05</div>
+            <div class="feature-text">
+              <h4>리습(Lisp) 100% 호환</h4>
+              <p>기존 AutoCAD Lisp, PGP 파일을 그대로 사용할 수 있습니다.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-num">06</div>
+            <div class="feature-text">
+              <h4>사용자 친화적 UI</h4>
+              <p>리본 메뉴 커스터마이징, 3D 기즈모, 멀티윈도우 지원으로 편리한 작업 환경을 제공합니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature Screenshots -->
+      <div class="feature-screenshots">
+        <div class="fs-item">
+          <img src="data/extracted/page11_img3.jpeg" alt="다중 CPU 지원" />
+          <span>다중 CPU 지원</span>
+        </div>
+        <div class="fs-item">
+          <img src="data/extracted/page11_img4.jpeg" alt="3D 모델링 / IFC" />
+          <span>3D 모델링 / IFC</span>
+        </div>
+        <div class="fs-item">
+          <img src="data/extracted/page12_img5.jpeg" alt="높은 디스플레이 품질" />
+          <span>높은 디스플레이 품질</span>
+        </div>
+        <div class="fs-item">
+          <img src="data/extracted/page12_img6.jpeg" alt="친화적 UI / 3D 기즈모" />
+          <span>친화적 UI / 3D 기즈모</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY SECTION -->
+  <section class="why-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">실사용자 후기</span>
+        <h2 class="section-title">이미 많은 사용자가 증명합니다</h2>
+        <p class="section-desc">실제 현장에서 ZYXCAD를 사용하는 분들의 생생한 후기입니다.</p>
+      </div>
+      <div class="review-list">
+
+        <div class="review-card">
+          <div class="review-body">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">AutoCAD에서 전환했는데 UI·명령어가 똑같아 첫날부터 바로 사용했습니다. 기존 LISP 파일과 DWG 도면이 <strong>100%
+                호환</strong>되어 추가 변환 없이 그대로 활용할 수 있었고, 팀원 전체가 별도 교육 없이 바로 적응했습니다.</p>
+            <div class="review-author">
+              <span class="review-name">김 팀장</span>
+              <span class="review-company">L건설 해외사업부</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-body">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">3년 기준으로 비교하면 AutoCAD 대비 <strong>약 63% 비용이 절감</strong>되었습니다. 영구 라이선스로 전환한 뒤 구독료 부담이
+              사라졌고, 절약한 비용을 다른 업무에 투자할 수 있어 사무소 경영에 실질적인 도움이 되고 있습니다.</p>
+            <div class="review-author">
+              <span class="review-name">박 이사</span>
+              <span class="review-company">K엔지니어링 건축사사무소</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-body">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">CadMaster, Cycad 등 써드파티 툴과의 연동이 완벽하고, 리본 메뉴 커스터마이징으로 자주 쓰는 명령어를 한 곳에 모아 <strong>작업
+                속도가 크게 향상</strong>됐습니다. 대용량 도면도 부드럽게 열리고 장시간 작업해도 안정적입니다.</p>
+            <div class="review-author">
+              <span class="review-name">이 대표</span>
+              <span class="review-company">C공작소</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-body">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">국내 자체 개발 제품이라 기술 지원이 빠르고 친절합니다. 문제가 생기면 원격 지원으로 당일 해결됩니다. 무엇보다 <strong>불법 소프트웨어 단속 걱정
+                없이</strong> 정품을 합리적 비용으로 사용할 수 있다는 점이 가장 마음에 듭니다.</p>
+            <div class="review-author">
+              <span class="review-name">정 차장</span>
+              <span class="review-company">H산업개발 프로젝트팀</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">자주 묻는 질문</span>
+        <h2 class="section-title">궁금한 점을 해결해 드립니다</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item" id="faq1">
+          <button class="faq-q" onclick="toggleFaq('faq1')">
+            매년 비용이 들어가는 임대 버전인가요?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">
+            평생 사용할 수 있는 <strong>영구 버전</strong>과 기간제 임대 버전을 동시에 제공하여, 비용 절감은 물론 업무 환경에 맞게 유연하게 CAD를 사용할 수 있습니다.
+          </div>
+        </div>
+        <div class="faq-item" id="faq2">
+          <button class="faq-q" onclick="toggleFaq('faq2')">
+            기존에 사용하던 AutoCAD와 호환이 되나요?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">
+            AutoCAD 제품과 사용자 환경이 매우 유사하고, <strong>DWG 파일 호환성 100%</strong>입니다. 또한 사용하던 PGP 파일, LISP도 100% 연동됩니다.
+          </div>
+        </div>
+        <div class="faq-item" id="faq3">
+          <button class="faq-q" onclick="toggleFaq('faq3')">
+            따로 교육을 받아야 하나요?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">
+            기존 AutoCAD와 명령어, UI, 인터페이스가 동일하여 따로 교육받을 필요는 없습니다. 다만 처음 사용자를 위한 <strong>무료 교육</strong>도 제공하고 있습니다.
+          </div>
+        </div>
+        <div class="faq-item" id="faq4">
+          <button class="faq-q" onclick="toggleFaq('faq4')">
+            불법 소프트웨어 단속이나 내용 증명 해결이 가능한가요?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">
+            ZYXCAD를 사용함으로써 불법 소프트웨어 사용을 근절하고 내용 증명 및 단속에 완벽하게 대처할 수 있습니다.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKS -->
+  <section class="works-section" id="works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">ZYXCAD + Works</span>
+        <h2 class="section-title">400여 개 설계 자동화 기능</h2>
+        <p class="section-desc">토목, 건축 및 유틸리티 등 400여 개의 기능을 가진 응용 프로그램 Works가 기본 탑재되어 있습니다.</p>
+      </div>
+      <div class="works-content">
+        <div class="works-img">
+          <img src="data/extracted/page13_img3.jpeg" alt="ZYXCAD Works 기능" />
+        </div>
+        <div class="works-features">
+          <div class="works-feature-item">
+            <span class="wf-icon">🏗️</span>
+            <div>
+              <h4>토목 설계 Unit</h4>
+              <p>토목 설계에 특화된 전문 기능 모음</p>
+            </div>
+          </div>
+          <div class="works-feature-item">
+            <span class="wf-icon">🖨️</span>
+            <div>
+              <h4>다중 출력</h4>
+              <p>여러 도면을 한 번에 출력하는 효율적인 기능</p>
+            </div>
+          </div>
+          <div class="works-feature-item">
+            <span class="wf-icon">📊</span>
+            <div>
+              <h4>엑셀 연동</h4>
+              <p>엑셀 파일과 도면 데이터를 손쉽게 연동</p>
+            </div>
+          </div>
+          <div class="works-feature-item">
+            <span class="wf-icon">✏️</span>
+            <div>
+              <h4>문자 편집 작업</h4>
+              <p>도면 내 문자를 빠르고 정확하게 편집</p>
+            </div>
+          </div>
+          <div class="works-feature-item">
+            <span class="wf-icon">🏢</span>
+            <div>
+              <h4>건축물 사선 제한 검토</h4>
+              <p>정북 일조권 사선 제한 자동 계산 및 검토</p>
+            </div>
+          </div>
+          <div class="works-feature-item">
+            <span class="wf-icon">📂</span>
+            <div>
+              <h4>도면 분할 & 파일명 지정</h4>
+              <p>대형 도면을 분할하고 파일명을 자동 지정</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="works-sub-imgs">
+        <div class="works-sub-img">
+          <img src="data/extracted/page14_img3.jpeg" alt="도면 분할 기능" />
+          <span>도면 분할 기능</span>
+        </div>
+        <div class="works-sub-img">
+          <img src="data/extracted/page14_img4.jpeg" alt="정북 일조권 사선 제한" />
+          <span>정북 일조권 사선 제한</span>
+        </div>
+        <div class="works-sub-img">
+          <img src="data/extracted/page15_img3.jpeg" alt="SIC ALU 창호 설계" />
+          <span>SIC ALU 창호 설계</span>
+        </div>
+        <div class="works-sub-img">
+          <img src="data/extracted/page15_img4.jpeg" alt="도면 좌표 자동 추출" />
+          <span>도면 좌표 자동 추출</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3RD PARTY -->
+  <section class="thirdparty-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">ZYXCAD + 3rd-Party</span>
+        <h2 class="section-title">산업 분야별 연동 솔루션</h2>
+      </div>
+      <div class="thirdparty-grid">
+        <div class="tp-col">
+          <div class="tp-header">🏗️ 건축 / 건설 (AEC)</div>
+          <ul>
+            <li>CadMaster</li>
+            <li>Cycad</li>
+            <li>FormDrone</li>
+            <li>CO-ME</li>
+            <li>LANDY (조경)</li>
+            <li>Qpro (토목)</li>
+          </ul>
+        </div>
+        <div class="tp-col">
+          <div class="tp-header">⚙️ 기계 / 설비 (MFG)</div>
+          <ul>
+            <li>Mechclick</li>
+            <li>SIC-ALU (창호)</li>
+            <li>Fire (소방)</li>
+          </ul>
+        </div>
+        <div class="tp-col">
+          <div class="tp-header">📦 제품 라인업</div>
+          <div class="product-card">
+            <span class="product-badge">Professional</span>
+            <p>영구 / 임대</p>
+          </div>
+          <div class="product-card product-standard">
+            <span class="product-badge product-badge-std">Standard</span>
+            <p>영구 / 임대</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTS -->
+  <section class="clients-section" id="clients">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">주요 고객사</span>
+        <h2 class="section-title">다양한 산업 분야가 선택한 ZYXCAD</h2>
+      </div>
+      <div class="clients-categories">
+        <div class="client-cat">
+          <div class="cat-tag">AEC 부문</div>
+          <p>건축 · 건설 · 엔지니어링</p>
+        </div>
+        <div class="client-cat">
+          <div class="cat-tag">MFG 부문</div>
+          <p>제조 · 기계 · 설비</p>
+        </div>
+        <div class="client-cat">
+          <div class="cat-tag">공공 / 교육</div>
+          <p>공공기관 · 교육기관</p>
+        </div>
+      </div>
+      <div class="clients-logo-wrap">
+        <img src="data/extracted/page8_img14.jpeg" alt="ZYXCAD 주요 고객사 로고" class="clients-logo-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPPORT -->
+  <section class="support-section" id="support">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">기술 지원</span>
+        <h2 class="section-title">끝까지 책임지는<br />프리미엄 기술 지원 서비스</h2>
+      </div>
+      <div class="support-content">
+        <div class="support-img">
+          <img src="data/extracted/page16_img8.jpeg" alt="ZYXCAD 기술 지원" />
+        </div>
+        <div class="support-info">
+          <div class="support-features">
+            <div class="support-feat">
+              <span class="sf-icon">🌐</span>
+              <div>
+                <h4>고객 지원 사이트 운영</h4>
+                <p>홈페이지 · 네이버 카페 · 블로그</p>
+              </div>
+            </div>
+            <div class="support-feat">
+              <span class="sf-icon">👨‍💻</span>
+              <div>
+                <h4>전문 기술 지원팀</h4>
+                <p>원격 지원 · 방문 지원 · 해외 원격 지원</p>
+              </div>
+            </div>
+            <div class="support-feat">
+              <span class="sf-icon">🎓</span>
+              <div>
+                <h4>무료 교육 제공</h4>
+                <p>온라인(동영상) · 오프라인(본사 교육)</p>
+              </div>
+            </div>
+            <div class="support-feat">
+              <span class="sf-icon">⏰</span>
+              <div>
+                <h4>고객 지원 시간</h4>
+                <p>09:00 ~ 18:00 (평일)</p>
+              </div>
+            </div>
+          </div>
+          <div class="support-contact">
+            <div class="contact-row">
+              <span>📞</span>
+              <span>070-4647-3378</span>
+            </div>
+            <div class="contact-row">
+              <span>🌐</span>
+              <a href="https://www.caplanet.co.kr/ZYXCAD" target="_blank">www.caplanet.co.kr/ZYXCAD</a>
+            </div>
+            <div class="contact-row">
+              <span>📝</span>
+              <a href="https://blog.naver.com/zyxcad" target="_blank">ZYXCAD 블로그</a>
+            </div>
+            <div class="contact-row">
+              <span>📷</span>
+              <a href="https://www.instagram.com/zyxtechnology/" target="_blank">@zyxtechnology</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>지금 바로 ZYXCAD를 시작하세요</h2>
+      <p>AutoCAD에서 전환해도 새로운 교육 없이 즉시 사용 가능합니다.</p>
+      <div class="cta-actions">
+        <a href="https://www.caplanet.co.kr/ZYXCAD" class="btn btn-primary" target="_blank">무료 체험 신청</a>
+        <a href="tel:070-4647-3378" class="btn btn-outline-white">전화 상담 (070-4647-3378)</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="footer-logo"><span class="logo-zyx">ZYX</span><span class="logo-cad">CAD</span></div>
+          <p>㈜씨에이플래닛<br />세상을 바꾸는 디자인<br />Designing the Future, Changing the World</p>
+          <a href="https://www.caplanet.kr" target="_blank">www.caplanet.kr</a>
+        </div>
+        <div class="footer-links">
+          <h5>빠른 링크</h5>
+          <ul>
+            <li><a href="#about">CAD 시장 이슈</a></li>
+            <li><a href="#compare">성능 비교</a></li>
+            <li><a href="#features">주요 기능</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#clients">고객사</a></li>
+            <li><a href="#support">기술 지원</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h5>연락처</h5>
+          <p>📞 070-4647-3378</p>
+          <p>🌐 <a href="https://www.caplanet.co.kr/ZYXCAD" target="_blank">caplanet.co.kr/ZYXCAD</a></p>
+          <p>📝 <a href="https://blog.naver.com/zyxcad" target="_blank">blog.naver.com/zyxcad</a></p>
+          <p>📺 ZYXCAD 유튜브</p>
+          <p>📷 <a href="https://www.instagram.com/zyxtechnology/" target="_blank">@zyxtechnology</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 ㈜씨에이플래닛 / ZYX Technology. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
